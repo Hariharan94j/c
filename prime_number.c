@@ -2,20 +2,23 @@
 
 int main()
 {
-    int num,temp=0;
+    int num,flag=0;
     scanf("%d",&num);
-    for(int i=2;i<num/2;i++)
+    div=num/2;
+    
+    for(int i=2;i<div;i++)
     {
         if(num%i==0)
         {
             printf("%d is not a prime number",num);
-            temp=1;
+            flag=1;
             break;
         }
     }
-    if(temp==0)
-    {
-    printf("%d is a prime number",num);
-    }
-
+    
+       if(flag==0)
+       {
+           printf("%d is a prime number",num);
+       }
+    
 }
