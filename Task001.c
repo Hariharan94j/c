@@ -25,7 +25,9 @@ int main(void)
           n=(j==i+1)?num:(n*10)+num;
       }
       for(k=0;k<n;k++)
+      {
       printf("%c",str[i]);
+      }
       i=j;
       
   }
