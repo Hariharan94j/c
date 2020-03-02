@@ -3,6 +3,7 @@
 int main()
 {
     int num,divn,flag=0;
+    printf("Enter number : ");
     scanf("%d",&num);
     divn=num/2;
     
@@ -16,9 +17,9 @@ int main()
         }
     }
     
-      if(flag==0)
-       {
-           printf("%d is a prime number",num);
-       }
+    if(flag==0)
+    {
+        printf("%d is a prime number",num);
+    }
     
 }
