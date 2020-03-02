@@ -2,11 +2,11 @@
 
 int main()
 {
-    int num,div,flag=0;
+    int num,divn,flag=0;
     scanf("%d",&num);
-    div=num/2;
+    divn=num/2;
     
-    for(int i=2;i<div;i++)
+    for(int i=2;i<divn;i++)
     {
         if(num%i==0)
         {
