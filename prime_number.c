@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-int main()
+void main()
 {
     int num,divn,flag=0;
     printf("Enter number : ");
