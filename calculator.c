@@ -21,6 +21,7 @@ void main()
     c=a+b;
     printf("%d %c %d = %d",a,opt,b,c);
   }
+  
   else if(opt == '-') 
   {
     c=a-b;
@@ -34,16 +35,19 @@ void main()
         printf("%d %c %d = %d",a,opt,b,c);
     }
   }
+  
   else if(opt == '*')
   {
     c=a*b;
     printf("%d %c %d = %d",a,opt,b,c);
   }
+  
   else if(opt == '/')
   {
     d=(float)a/b;
     printf("%d %c %d = %f",a,opt,b,d);
   }
+  
   else
   {
     printf("Enter valid operator among + - * /");
