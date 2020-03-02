@@ -2,7 +2,7 @@
 
 int main()
 {
-    int num,flag=0;
+    int num,div,flag=0;
     scanf("%d",&num);
     div=num/2;
     
