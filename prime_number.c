@@ -8,7 +8,7 @@ int main()
     
     for(int i=2;i<divn;i++)
     {
-        if(num%i==0)
+       if(num%i==0)
         {
             printf("%d is not a prime number",num);
             flag=1;
@@ -16,7 +16,7 @@ int main()
         }
     }
     
-       if(flag==0)
+      if(flag==0)
        {
            printf("%d is a prime number",num);
        }
